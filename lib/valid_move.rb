@@ -1,3 +1,3 @@
 def valid_move?(board, index)
-  board[index].between?(board[0], board[8])
+  index.between?(0, 8)
 end
